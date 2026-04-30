@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'UI/tela_Adicionar.dart';
-import 'UI/tela_consulta.dart';
+import 'UI/tela_Mensagens.dart';
+import 'UI/tela_ListarMensagens.dart';
 
 class Menu extends StatefulWidget {
   @override
@@ -18,18 +18,19 @@ class _MenuState extends State<Menu> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Escolha a opção"),
+        backgroundColor: Colors.blue,
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.person),
             onPressed: () {
-              _abreTelaAdicionar(context, TelaAdicionar());
+              _abreTelaAdicionar(context, TelaMensagens());
             },
             tooltip: 'Clique para adicionar registros',
           ),
           IconButton(
             icon: Icon(Icons.public),
             onPressed: () {
-              _abreTelaListar(context, TelaConsulta());
+              _abreTelaListar(context, TelaListarMensagens());
             },
             tooltip: 'Clique para visualizar os registros',
           )
