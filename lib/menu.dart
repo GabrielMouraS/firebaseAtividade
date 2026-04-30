@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'tela_Adicionar.dart';
-import 'tela_consulta.dart';
+import 'UI/tela_Adicionar.dart';
+import 'UI/tela_consulta.dart';
 
 class Menu extends StatefulWidget {
   @override
@@ -126,7 +126,7 @@ class _MenuState extends State<Menu> {
               padding: EdgeInsets.symmetric(horizontal: 40, vertical: 12),
             ),
             onPressed: () {
-              
+
             },
             child: Text("Histórico de mensagens", style: TextStyle(fontSize: 16)),
           ),

@@ -9,7 +9,7 @@ class _TelaConsultaState extends State<TelaConsulta> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Consultar cliente"),
+        title: Text("Lista Conversas"),
       ),
     );
   }

@@ -9,7 +9,7 @@ class _TelaAdicionarState extends State<TelaAdicionar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Registrar cliente"),
+        title: Text("Mensagens"),
       ),
     );
   }
